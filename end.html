@@ -5,6 +5,14 @@
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width">
         <style>
+            #pause {
+            position: absolute;
+            top: 2.3vh;
+            right: 0.5vw;
+            width: 4vw;
+            z-index: -2;
+            cursor: pointer;
+        }
         #bg {
             position: absolute;
                width: 100vw;
@@ -136,6 +144,7 @@
     </head>
     <body>
         <img id="scan" src="objects/Scan.jpeg">
+        <img id="pause" src="pause.png">
         <video loop autoplay muted playsinline  id="bg" src="led1.mp4"
             type="video/mp4"></video> 
             <video loop autoplay muted playsinline  id="bg1" src="led1.mp4"
